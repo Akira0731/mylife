@@ -1,0 +1,143 @@
+  
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MyLife</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css/font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/uzuworks/uzufavicon.png">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+</head>
+<body>
+
+    <header>
+        <div class="title">MyLIfe</div>
+        <div class="menu">
+            <ol>
+                <li><a href="#top">概要</a></li>
+                <li><a href="#history" class="anchor">来歴</a></li>
+                <li><a href="#skill" class="anchor">スキル</a></li>
+                <li><a href="#contact" class="anchor">連絡先</a></li>
+            </ol>
+        </div>
+    </header>
+    
+    <main>
+        <section data-scroll id="overview" class="content-base">
+            <div class="panels-float">
+                <div class="panels">
+                    <div class="panel">
+                        <svg id="voronoi" class="contents"></svg>
+                    </div>
+                    <!-- <div class="panel">
+                        <canvas id="fractal" class="contents"></canvas>
+                    </div> -->
+                </div>
+                <div class="policy">技術にできることは、まだまだあると思う</div>
+            </div>
+        </section>
+        <section data-scroll class="content-base">
+            <div id="history" class="anchor">
+                <div class="title">来歴</div>
+                <ul class="history-contents">
+                    <li>大学では国際コミュニケーションを夢に。<br>
+                        <span class="supple">しかし夢はいつしか料理人へ</span>
+                    </li>
+                    <li>卒業後は料理人の道へ。<br>
+                        人に料理を食べてもらう喜びと、何かを作るという達成感を知る。<br>
+                        <span class="supple">しかし、食べ物は形には残らない</span></li>
+                    <li>何か形に残るモノを作りたいと思い始める<br>
+                    <li>
+                        常駐派遣の会社へ転職。<br>
+                        開発 兼 保守などを担当する。<br>
+                        <span class="supple">何かを作り動いたことが素晴らしいと感じた</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section data-scroll class="content-base">
+            <div id="skill" class="anchor">
+                <div class="title">スキル</div>
+                <div class="skill-contents">
+                    <ul class="skill-list">
+                        <li id="csharp" class="skill expert"><img src="assets/images/skill/csharp.jpg" title="C#"> </li>
+                        <li id="javascript" class="skill expert"><img src="assets/images/skill/javascript.jpg" title="JavaScirpt"></li>
+                        <li id="python" class="skill expert"><img src="assets/images/skill/python.jpg" title="Python"> </li>
+                        <li id="jquery" class="skill expert"><img src="assets/images/skill/jquery.jpg" title="JQuery"> </li>
+                        <li id="sql" class="skill expert"><img src="assets/images/skill/sql.jpg" title="SQL"> </li>
+                        <li id="windows" class="skill expert"><img src="assets/images/skill/windows.jpg" title="Windows"> </li>
+                        <li id="flask" class="skill novis"><img src="assets/images/skill/flask.jpg" title="Flask"> </li>
+                        <li id="aws" class="skill novis"><img src="assets/images/skill/aws.jpg" title="AWS"> </li>
+                        <li id="azure" class="skill novis"><img src="assets/images/skill/azure.jpg" title="Azure"> </li>
+                        <li id="django" class="skill novis"><img src="assets/images/skill/django.jpg" title="Django"> </li>
+                        <li id="docker" class="skill learner"><img src="assets/images/skill/docker.jpg" title="Docker"> </li>
+                        <li id="swift" class="skill learner"><img src="assets/images/skill/swift.jpg" title="Swift"> </li>
+                        <li id="vue" class="skill learner"><img src="assets/images/skill/vue.jpg" title="VueJS"> </li>
+                        <li id="electron" class="skill learner"><img src="assets/images/skill/electron.jpg" title="Electron"> </li>
+                        <li id="gcp" class="skill learner"><img src="assets/images/skill/gcp.jpg" title="GCP"> </li>
+                    </ul>
+                    <div class="skill-detail">
+                        <div class="skill-detail-container">
+                            <div class="skill-name"></div>
+                            <div class="skill-experience"></div>
+                        </div>
+                        <div class="skill-comment">
+                            <div class="place-holder">アイコンをクリック</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-scroll class="content-base">
+            <div id="contact" class="anchor">
+                <div class="title">問い合わせ</div>
+                <div class="contact-comment">
+                    <p>現在は育児中のため仕事を絞っていますが、楽しそうなお仕事はなるべくお請けするつもりです。</p>
+                    <p>※外部サイトが別Windowで開きます。</p>
+                </div>
+                <div class="contact-form">
+                    <a href="javascript:void(0)" onClick="javascript:window.open('https://ws.formzu.net/fgen/S78504468/', 'mailform1', 'toolbar=no, location=no, status=yes, menubar=yes, resizable=yes, scrollbars=yes, width=600, height=500, top=100, left=100')">お問い合わせ</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">Copyright &#169; 2019 uzuworks All Rights Reserved.</div>
+    </footer>
+        
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $('a[href^=#].anchor').click(function() {
+            var href= $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var headerHeight = 75;
+            var position = target.offset().top - headerHeight;
+            $('body,html').animate({scrollTop:position}, 400, 'swing');
+            return false;
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
