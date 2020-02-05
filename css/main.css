@@ -35,7 +35,7 @@ a:active {
 /* 共通の見出し */
 main h1 {
 	margin-bottom: 1rem;
-	border-bottom: 1px dashed #6363C7;
+	border-bottom: 1px dashed #f39700;
 	font-weight: normal;
 	font-size: 1.6rem;
 }
@@ -55,7 +55,7 @@ main h1 {
 
 /* ========== ヘッダー ========== */
 header {
-	background: #6363C7;
+	background: #f39700;
 }
 .header-inner {
 	display: flex;
@@ -103,7 +103,7 @@ nav {
 	text-decoration: none;
 }
 .navbar a:hover {
-	background: #6363C7;
+	background: #f39700;
 }
 
 @media screen and (min-width: 768px) {
@@ -115,7 +115,7 @@ nav {
 		text-align: center;
 	}
 	.navbar a.nav-current {
-		background: #6363C7;
+		background: #f39700;
 	}
 }
 
@@ -135,7 +135,7 @@ main {
 
 /* ========== フッター ========== */
 footer {
-	background: #6363C7;
+	background: #f39700;
 	font-size: 0.9rem;
 	color: #fff;
 }
@@ -166,7 +166,7 @@ footer {
 	font-size: 1.4rem;
 }
 .home-maincopy strong {
-	color: #6363C7;
+	color: #f39700;
 }
 
 @media screen and (min-width: 767px) {
@@ -192,8 +192,8 @@ footer {
 .home-h2 {
 	padding-bottom: 5px;
 	margin: 30px 0 10px 0;
-	color: #6363C7;
-	border-bottom: 1px dashed #6363C7;
+	color: #f39700;
+	border-bottom: 1px dashed #f39700;
 	font-size: 1.3rem;
 }
 
@@ -276,7 +276,7 @@ footer {
 	padding: 0.1rem 0.5rem;
 	margin-right: 0.1rem;
 	border-radius: 3px;
-	background: #6363C7;
+	background: #f39700;
 	font-size: 0.7rem;
 	color: #fff;
 }
@@ -284,8 +284,8 @@ footer {
 /* コース説明 */
 .course-h3 {
 	margin: 30px 0 10px 0;
-	color: #6363C7;
-	border-bottom: 1px dashed #6363C7;
+	color: #f39700;
+	border-bottom: 1px dashed #f39700;
 	font-size: 1.3rem;
 }
 .course-description {
