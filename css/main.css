@@ -1,14 +1,7 @@
 
 @charset "utf-8";
 
-.container
-{
-	position: relative;
-	width: 1200px;
-	height: 300px;
-	margin; 204px auto;
-	background: #000;	
-}
+
 
 /* ========== すべて共通 ========== */
 html, body {
@@ -20,6 +13,15 @@ html, body {
 body, div, p, h1, h2, h3, h4, ul, figure {
 	margin: 0;
 	padding: 0;
+}
+
+.container
+{
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin; 204px auto;
+	background: #000;	
 }
 p, td, th, li {
 	line-height: 1.8;
