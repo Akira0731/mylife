@@ -377,3 +377,28 @@ footer {
 [data-scroll="out"] {
     opacity: 0;
 }
+section {
+    padding: 10px 50px;
+    max-width: 960px;
+    width: 740px;
+    height: 520px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #EFEBE9;
+}
+
+section .title {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/* overview */
+.panels-float {
+    position: relative;
+}
+
+.panel {
+    padding: 0;
+    text-align: center;
+}
