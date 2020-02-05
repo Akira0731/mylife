@@ -356,3 +356,9 @@ footer {
 	background: url(../images/a.png) no-repeat left top;
 	background-size: 40px 40px;
 }
+/* history */
+.history-contents li {
+    background-color: #D7CCC8;
+    list-style: none;
+    margin: 10px;
+}
