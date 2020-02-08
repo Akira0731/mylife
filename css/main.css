@@ -79,7 +79,7 @@ ul, li {
   align-items: center;
   height: 480px;
   background-size: auto 100%;
-  background-image: url(../img/header/book.jpg) center center;
+  background-image: url("../img/header/book.jpg") center center;
 }
 
 #header .logo {
