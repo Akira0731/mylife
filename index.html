@@ -8,67 +8,225 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="description" content="人生を楽しく">
 <title>MyLife</title>
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/main.css">
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<link href="css/maincss.css" media="all" rel="stylesheet" type="text/css" />
+<link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 </head>
 <body>
-<!-- ========== header ========== -->
-<header>
-	<div class="container header-container">
-		<div class="header-inner">
-			<h1 class="header-logo"><a href="index.html">
-			</a></h1>
-		</div>
-	</div><!-- /header-container -->
+  <header >
+<div id="wrapper">
+
+  <h1 class= "logo">
+    <span class="logo-title">MyLife is Beatiful</span>
+    <span class="logo-desc">Web Engineer</span>
+  </h1>
 </header>
-<!-- ========== /header ========== -->
-<!-- ========== nav ========== -->
-<nav>
-	<div class="container nav-container">
-	   	<ul class="navbar">
-		    <li><a href="index.html">ホーム</a></li>
-			<li><a href="#history" class="anchor">経歴</a></li>
-			<li><a href="#skill" class="anchor">スキル</a></li>
-		        <li><a href="#contact" class="anchor">お問い合わせ</a></li>
-	    </ul>
-	</div><!-- /nav-container -->
+
+<nav id="gnav">
+     <ul>
+       <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
+       <li><i class="fas fa-lightbulb fa-lg"><a href="#skill">SKILL</a></i></li>
+       <li><i class="fas fa-tasks fa-lg"><a href="#works">WORKS</a></i></li>
+       <li><i class="fas fa-envelope fa-lg"><a href="#contact">CONTACT</a></i></li>
+     </ul>
 </nav>
-<!-- ========== /nav ========== -->
+  <main id="contents">
 
-<!-- ========== main ========== -->
-<section class="main">
-	<div class="container">
-		<main>
-			<p class="home-maincopy">人生を楽しく、<br>
-			<span class="home-color1">あ</span><span class="home-color2">な</span><span class="home-color3">た</span><span class="home-color4">の</span><span class="home-color1">生き</span><span class="home-color2">方</span><span class="home-color3">で</span>輝こう、<strong>MyLife</strong>。</p>
-			<h2 class="home-h2">概要</h2>
-			<div class="home-news">
-			<ul>
-			<li>ここでは今までの経歴など</li>
-			<li>わたくしについて紹介しようと思います</li>
-			<li>Let's do that!</li>
-			</ul>
-			</div><!-- /.home-news -->
-		</main>
-	</div>
-</section>
-<!-- ========== /main ========== -->
+    <section class="section" id="Profile">
+      <div class="inner">
+        <div class="section-title-block">
+          <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
+        </div>
+        <div class="two-column-wrapper">
+          <div class="two-column-image profile">
+            <img src="img/profile/profile.JPG" alt="">
+          </div>
+          <div class="two-column-desc">
+            <p class="text">
+              　はじめまして。ついに三十路に突入しましたTerumasa申します。社会人歴（IT業界）4年目です。<br>
+              　今現在SIer企業に在職中です。常駐先では大規模な工事管理システムの開発と保守メンテナンスを担当、その後はショッピングサイトのメンテなど行う。
+              　開発業務を経て、デザインで人の心を動かしたいと感じて、Webに携わりたい！！と決意し。<br>
+              　現在、転職活動を始めました。（2019年2月06日更新）
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- ========== footer ========== -->
-<footer>
-	<div class="container footer-container">
-	   	<ul class="footer-nav">
-		    <li><a href="index.html">ホーム</a></li>
-			<li><a href="course/index.html">経歴</a></li>
-		    <li><a href="qanda/index.html">お問い合わせ</a></li>
-		</ul><!-- /.footer-nav -->
-		<p class="footer-copyright">
-		&copy; mylife
-		</p><!-- /.footer-copyright -->
-	</div><!-- /.footer-container -->
+    <section class="section" id="skill">
+      <div class="inner">
+        <div class="section-title-block">
+          <h2 class="section-title"><i class="fas fa-lightbulb fa-lg"><span class="section-title-css">SKILL</span></i></h2>
+          <p class="section-desc"></p>
+        </div>
+        <div class="card-wrapper">
+
+          <div class="card">
+            <div class="skill-desc">
+              <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>デザイン・コーディング</h3>
+              <p>現在学習中です、WordPressやATOMを使用して、業務後にコーディングしています。<br>
+              2～3時間はあっという間に過ぎるので、時間食いお化けですね、一応業務でも触りますが<br>
+            いちからがっつりではなく、少しの改修を行ってきた程度です。</p>
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th scope="col">技術</th>
+                    <th scope="col">経験年数</th>
+                    <th scope="col">スキル</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">HTML5</th>
+                    <td>1年</td>
+                    <td><span class="rating"><p class="rate rate1"></p></span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">CSS3</th>
+                    <td>1年</td>
+                    <td><span class="rating"><p class="rate rate1"></p></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="skill-desc">
+              <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>プログラミン言語</h3>
+              <p>基本的にJavaです。</p>
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th scope="col">技術</th>
+                    <th scope="col">経験年数</th>
+                    <th scope="col">スキル</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Java</th>
+                    <td>2年</td>
+                    <td><span class="rating"><p class="rate rate2"></p></span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PL/SQL</th>
+                    <td>1年3ヵ月</td>
+                    <td><span class="rating"><p class="rate rate2"></p></span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Groovy</th>
+                    <td>7ヵ月</td>
+                    <td><span class="rating"><p class="rate rate2"></p></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="skill-desc">
+              <h3 class="skill-desc-title"><i class="fas fa-database"></i>DB</h3>
+              <p>直近ではMySQLを使用しました。</p>
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th scope="col">技術</th>
+                    <th scope="col">経験年数</th>
+                    <th scope="col">スキル</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Oracle</th>
+                    <td>1年3ヵ月</td>
+                    <td><span class="rating"><p class="rate rate2"></p></span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">MySQL</th>
+                    <td>1年</td>
+                    <td><span class="rating"><p class="rate rate2"></p></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="skill-desc">
+              <h3 class="skill-desc-title"><i class="fas fa-toolbox"></i>Toolなど</h3>
+              <p>開発等で使用したツールや等です。</p>
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th scope="col">技術</th>
+                    <th scope="col">経験年数</th>
+                    <th scope="col">スキル</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                  <tr>
+                    <th scope="row">git</th>
+                    <td>1年</td>
+                    <td><span class="rating"><p class="rate rate4"></p></span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">SVN</th>
+                    <td>1年</td>
+                    <td><span class="rating"><p class="rate rate2"></p></span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">slack</th>
+                    <td>2年</td>
+                    <td><span class="rating"><p class="rate rate5"></p></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="skill-desc">
+              <h3 class="skill-desc-title"><i class="fas fa-list-alt"></i>保有資格</h3>
+              <p>社会人になってから取得したものです。</p>
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th scope="col">資格</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Oracle Bronze</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">JavaSE8 silve</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<div>
+  <footer id="footer">
+  <div class="inner">
+    <nav class="footer-link">
+      <ul>
+        <li><a href="#Profile">Profile</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <p class="copyright">Copyright&copy;Naoto Suzuki. All Rights Reserved.</p>
+  </div>
 </footer>
-<!-- ========== /footer ========== -->
-
-<script src="script/script.js"></script>
 </body>
 </html>
