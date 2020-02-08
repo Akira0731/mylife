@@ -49,7 +49,7 @@ ul, li {
 ---------------------------------*/
 
 #wrapper {
-  background-color: #f3f3f3;
+  background-color: #2d3436;
 }
 
 .inner {
@@ -78,7 +78,8 @@ ul, li {
   -ms-align-items: center;
   align-items: center;
   height: 480px;
-  background-size: auto 100%;
+  object-fit: cover;
+  background-size: cover;
   background: url(../img/rock-731140.jpg) center center;
 }
 
@@ -102,7 +103,7 @@ ul, li {
 #header .logo-title {
   font-family: 'Oswald', sans-serif;
   font-size: 94px;
-  color: #fff;
+  color: #2d3436;
   line-height: 1;
   letter-spacing: -2px;
 }
@@ -112,7 +113,15 @@ ul, li {
   font-size: 36px;
   text-align: center;
   margin-top: 30px;
-  color: #fff;
+  color: #2d3436;
+}
+
+
+/*--------------------------------
+　photo fontawesome用
+---------------------------------*/
+.colorcontrol {
+  color:white;
 }
 
 /*--------------------------------
@@ -147,7 +156,7 @@ ul, li {
 }
 
 #gnav li a {
-  color: #333;
+  color: #ffffff;
   letter-spacing: -0.01em;
   margin-left: 12px;
 }
@@ -640,6 +649,7 @@ ul, li {
 
 .section-title-css{
   margin-left: 12px;
+  color: #ffffff;
 }
 
 .table{
